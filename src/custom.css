@@ -1,0 +1,121 @@
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-family: var(--sans);
+  font-weight: 700;
+  color: var(--sky-dark);
+  text-transform: none;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.25em;
+}
+.reveal h1 {
+  font-size: 2em;
+}
+.reveal h2 {
+  font-size: 1.45em;
+  border-bottom: 3px solid var(--sky-blue);
+  padding-bottom: 0.1em;
+  margin-bottom: 0.35em;
+}
+.reveal h3 {
+  font-size: 0.95em;
+  color: var(--sky-blue);
+  margin-bottom: 0.15em;
+}
+.reveal p {
+  font-size: 0.8em;
+  margin: 0.25em 0;
+}
+
+.reveal code {
+  font-family: var(--mono);
+  background: var(--sky-surface);
+  color: var(--sky-accent);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+.reveal pre {
+  font-size: 0.56em;
+  border-radius: 6px;
+  border: 1px solid var(--sky-border);
+  box-shadow: 0 2px 8px rgba(0, 60, 120, 0.08);
+  width: 100%;
+  margin: 0.35em 0;
+}
+.reveal pre code {
+  background: #f8fbff !important;
+  color: inherit;
+  padding: 9px 13px;
+  font-size: 1em;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.reveal ul {
+  list-style: none;
+  margin-left: 0.5em;
+}
+.reveal ul li {
+  font-size: 0.78em;
+  margin-bottom: 0.18em;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.5em;
+  padding: 1px 8px;
+  border-radius: 12px;
+  font-weight: 700;
+  vertical-align: middle;
+  margin-left: 5px;
+  font-family: var(--mono);
+}
+.badge-blue {
+  background: #dbeeff;
+  color: var(--sky-dark);
+  border: 1px solid #9ac4e8;
+}
+.badge-green {
+  background: #d4edda;
+  color: var(--sky-green);
+  border: 1px solid #9fd6ad;
+}
+.badge-red {
+  background: #fce8e6;
+  color: var(--sky-red);
+  border: 1px solid #f0a89e;
+}
+.badge-orange {
+  background: #fde8d8;
+  color: var(--sky-accent);
+  border: 1px solid #f0b898;
+}
+.badge-yellow {
+  background: #fef9e7;
+  color: var(--sky-yellow);
+  border: 1px solid #f0d890;
+}
+
+.callout {
+  border-left: 3px solid var(--sky-blue);
+  background: #e8f4fd;
+  border-radius: 0 6px 6px 0;
+  padding: 6px 11px;
+  margin: 0.35em 0;
+  font-size: 0.73em;
+  text-align: left;
+  line-height: 1.4;
+}
+.callout.green {
+  border-color: var(--sky-green);
+  background: #eafaf1;
+}
+.callout.warn {
+  border-color: var(--sky-yellow);
+  background: #fef9e7;
+}
+.callout.danger {
+  border-color: var(--sky-red);
+  background: #fce8e6;
+}
