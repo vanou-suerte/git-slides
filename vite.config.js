@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/<nom-du-repo>/",
+  base: "/git-slides/",
   server: {
     watch: {
       ignored: ["!**/public/slides/**"],
